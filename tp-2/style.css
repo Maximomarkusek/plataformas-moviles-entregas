@@ -1,0 +1,76 @@
+body {
+    background-color: #1e1e1e;
+    color: rgb(255, 60, 120);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    transition: color 0.3s ease;
+  }
+  
+  h1, h2, h3 {
+    color: #f0f0f0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  strong {
+    border-bottom: 1px dashed #ccc;
+  }
+  
+  .force-tag {
+    background-color: #333;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .side-light {
+    color: #a98bff;
+  }
+  
+  .side-dark {
+    color: #33ff88;
+  }
+  
+  #classic-trilogy {
+    list-style-type: disc;
+  }
+  
+  /* Añade espacio interno al segundo bloque de películas */
+  .movie-collection:nth-of-type(2) {
+    padding-left: 25px;
+  }
+  
+  /* Margen superior en el último ítem del tercer grupo */
+  .movie-collection:nth-of-type(3) li:last-child {
+    margin-top: 12px;
+  }
+  
+  /* Primera línea del primer párrafo en tono claro */
+  p:first-of-type::first-line {
+    color: #dfffdc;
+  }
+  
+  h1:hover {
+    color: crimson;
+  }
+  
+  a:visited {
+    color: #888;
+  }
+  
+  /* Links sin href en cursiva */
+  a:not([href]) {
+    font-style: italic;
+  }
+  
+  /* Estilo alternado para ítems de lista */
+  .movie-collection li:nth-child(odd) {
+    background-color: #292828;
+  }
+  
+  .movie-collection li:nth-child(even) {
+    background-color: #505050;
+  }
