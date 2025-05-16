@@ -1,0 +1,33 @@
+h1.titulo {
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', serif;
+}
+
+#intro-texto {
+    background: #cee;
+}
+
+#intro-texto em {
+    color: #933;
+}
+
+a:link, a:visited {
+    outline: solid 1px #333;
+}
+
+.referencia {
+    opacity: 1;
+    color: black;
+}
+
+p:not(#ninguno) {
+    text-shadow: none;
+}
+
+.destacado {
+    font-weight: 700;
+    color: #c62;
+}
