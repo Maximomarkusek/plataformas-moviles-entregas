@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TP4 - CSS Media Queries</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      margin: 1rem;
+      background: #001122;
+      color: #eef0ff;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    section {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin: 1rem 0;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #9b5de5;
+    }
+
+    a:visited {
+      color: #dac4f7;
+    }
+
+    .img-box {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .img-box img {
+      display: block;
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 12px;
+      margin: 0 auto;
+    }
+
+    .img-box figcaption {
+      margin-top: 0.5rem;
+      font-style: italic;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h1>Del videojuego a la pantalla grande</h1>
+    <p>
+      Cada vez son más los videojuegos que tienen una adaptación cinematográfica. Estos últimos años se han visto en el cine títulos como <a href="https://es.wikipedia.org/wiki/Sonic,_la_pel%C3%ADcula">Sonic</a> o <a href="https://es.wikipedia.org/wiki/Pokémon:_Detective_Pikachu">Detective Pikachu</a> y se espera que en los próximos años esta tendencia se mantenga, con los rumores de películas de <a href="https://es.wikipedia.org/wiki/God_of_War_(franquicia)">God of War</a> y <a href="https://es.wikipedia.org/wiki/Street_Fighter">Street Fighter</a>.
+    </p>
+    <p>
+      Sin embargo hay una en particular que llama mucho la atención, pues estamos hablando de nada más y nada menos que la película del famoso videojuego <a href="https://es.wikipedia.org/wiki/Minecraft">Minecraft</a>.
+    </p>
+    <p>
+      Los planes para esta adaptación cinematográfica comenzaron en febrero de 2014 cuando <a href="https://es.wikipedia.org/wiki/Markus_Persson">Markus Persson</a> reveló que Mojang estaba en conversaciones con <a href="https://es.wikipedia.org/wiki/Warner_Bros.">Warner Bros</a> para el proyecto. El rodaje comenzó a mediados de enero de 2024 en Nueva Zelanda y se espera que la obra se estrene el 4 de abril de 2025.
+    </p>
+    <div class="img-box">
+      <img src="https://plataformas-moviles.vercel.app/img/minecraft.jpg" alt="Minecraft Cover">
+      <figcaption>Portada del Minecraft</figcaption>
+    </div>
+    <p>La película tratará de una adolescente que intentará salvar el <a href="https://minecraft.fandom.com/es/wiki/Superficie">Overwolrd</a> del <a href="https://minecraft.fandom.com/es/wiki/Enderdragón">Enderdragon</a>.</p>
+  </section>
+</body>
+</html>

@@ -1,0 +1,64 @@
+@media screen and (min-width: 400px) {
+  html {
+    background-color: rgb(40, 60, 80);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  header h1 {
+    text-align: center;
+  }
+}
+
+@media (orientation: landscape) {
+  section {
+    width: 50ch;
+    margin: auto;
+  }
+}
+
+@media screen and (min-height: 200px) {
+  h1 {
+    background: #334;
+  }
+}
+
+@media print {
+  body p {
+    font-family: Georgia, serif;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html, h1 {
+    background: #ddd;
+    color: #111;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  a:link, a:visited {
+    background: #212;
+    padding-inline: 5px;
+    padding-block: 2px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 899px) {
+  .img-box img {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 400px) {
+  img {
+    height: 400px;
+    object-fit: cover;
+  }
+}
+
+@media (min-resolution: 192dpi) {
+  section {
+    background: #667;
+  }
+}
